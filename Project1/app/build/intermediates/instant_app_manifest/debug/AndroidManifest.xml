@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.example.project1"
     android:targetSandboxVersion="2"
     android:versionCode="1"
@@ -8,6 +9,8 @@
     <uses-sdk
         android:minSdkVersion="15"
         android:targetSdkVersion="29" />
+
+    <dist:module dist:instant="true" />
 
     <application
         android:allowBackup="true"

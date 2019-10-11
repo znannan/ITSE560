@@ -1,0 +1,42 @@
+<LinearLayout xmlns:andriod="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+     andriod:layout_height="match_parent" tools:context=".MainActivity" andriod:layout_width="match_parent"
+    andriod:orientation="vertical">
+
+    <TextView
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="Team A"
+        andriod:padding="4dp"
+        />
+    <TextView
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="0"
+        andriod:padding="4dp"
+        />
+    <Button
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="+3 Points"
+        andriod:padding="4dp"
+        andriod:layout_margin="8dp"
+        />
+    <Button
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="+2 Points"
+        andriod:padding="4dp"
+        andriod:layout_margin="8dp"
+        />
+    <Button
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:text="Free Throw"
+        andriod:padding="4dp"
+        andriod:layout_margin="8dp"
+        />
+
+
+
+
+</LinearLayout>
