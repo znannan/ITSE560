@@ -7,13 +7,16 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="American Football Score Keeper"
         android:id="@+id/title"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="false"
         android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="8dp"
 
         />
 

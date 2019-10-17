@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void displayB(int teamBScore){
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
-        scoreView.setText(String.valueOf(teamAScore));
+        scoreView.setText(String.valueOf(teamBScore));
     }
 
     public void add6ForA(View v){
@@ -43,18 +43,18 @@ public class MainActivity extends AppCompatActivity {
         displayA(teamAScore);
     }
     public void add6ForB(View v){
-        teamAScore += 6;
-        displayA(teamAScore);
+        teamBScore += 6;
+        displayB(teamBScore);
     }
 
     public void add3ForB(View v){
-        teamAScore += 3;
-        displayA(teamAScore);
+        teamBScore += 3;
+        displayB(teamBScore);
     }
 
     public void add2ForB(View v){
-        teamAScore += 2;
-        displayA(teamAScore);
+        teamBScore += 2;
+        displayB(teamBScore);
     }
 
     public void reSet(View v){
