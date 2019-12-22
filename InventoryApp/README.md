@@ -1,6 +1,7 @@
 # InventoryApp
 
 Inventory Management App.
+(Reference online code for studying)
 --------------------------
 - list
 - create
