@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing between views. -->
+    <dimen name="activity_spacing">16dp</dimen>
+    <dimen name="dialog_spacing">32dp</dimen>
+    <dimen name="catalog_item_spacing">4dp</dimen>
+    <dimen name="item_image_text_spacing">28dp</dimen>
+    <dimen name="compound_image_padding">8dp</dimen>
+    <dimen name="image_view_border_offset">1dp</dimen>
+
+    <!-- View size. -->
+    <dimen name="image_container_height">264dp</dimen>
+    <dimen name="category_height">72dp</dimen>
+    <dimen name="quantity_button_size">48dp</dimen>
+    <dimen name="quantity_edit_text_width">112dp</dimen>
+    <dimen name="catalog_item_image_height">120dp</dimen>
+
+    <!-- Text size for views. -->
+    <dimen name="catalog_item_name_size">18sp</dimen>
+    <dimen name="catalog_item_price_size">15sp</dimen>
+    <dimen name="catalog_item_quantity_size">16sp</dimen>
+    <dimen name="category_text_size">17sp</dimen>
+    <dimen name="dialog_message_text_size">17sp</dimen>
+    <dimen name="item_name_text_size">17sp</dimen>
+
+    <!-- Background Attributes dimensions. -->
+    <dimen name="background_stroke_width">1dp</dimen>
+    <dimen name="background_corner_radius">6dp</dimen>
+</resources>

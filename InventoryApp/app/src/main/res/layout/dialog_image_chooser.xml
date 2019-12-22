@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dialog_spacing">
+
+    <TextView
+        android:id="@+id/action_camera"
+        style="@style/ImageChooserTextView"
+        android:drawableTop="@drawable/ic_photo_camera_gray_48dp"
+        android:text="@string/action_camera" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/action_gallery"
+        style="@style/ImageChooserTextView"
+        android:drawableTop="@drawable/ic_photo_library_gray_48dp"
+        android:text="@string/action_gallery" />
+</LinearLayout>

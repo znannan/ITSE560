@@ -8,4 +8,57 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Style for a category in the editor. -->
+    <style name="CategoryStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/activity_spacing</item>
+    </style>
+
+    <!-- Style for LinearLayout in the editor. -->
+    <style name="EditorLinearLayoutStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Style for EditText in the editor. -->
+    <style name="EditTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:selectAllOnFocus">true</item>
+    </style>
+
+    <!-- Style for TextView with a compound image. -->
+    <style name="TextViewWithDrawableStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:drawablePadding">@dimen/compound_image_padding</item>
+    </style>
+
+    <!-- Style for TextView in Image Chooser. -->
+    <style name="ImageChooserTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/compound_image_padding</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Style for TextView in Catalog List. -->
+    <style name="CatalogTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/activity_spacing</item>
+        <item name="android:paddingRight">@dimen/activity_spacing</item>
+    </style>
 </resources>

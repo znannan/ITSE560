@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editor_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_spacing">
+
+        <RelativeLayout
+            android:id="@+id/item_image_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_container_height"
+            android:layout_marginBottom="@dimen/activity_spacing"
+            android:background="@drawable/background_border">
+
+            <TextView
+                style="@style/TextViewWithDrawableStyle"
+                android:drawableTop="@drawable/ic_add_gray_48dp"
+                android:text="@string/add_image_text" />
+
+            <ImageView
+                android:id="@+id/edit_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/image_view_border_offset"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/item_image_description" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/category_height"
+            android:paddingBottom="@dimen/activity_spacing">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_name" />
+
+            <!-- Input fields: Name. -->
+            <EditText
+                android:id="@+id/edit_name"
+                style="@style/EditTextStyle"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:hint="@string/editor_name_hint"
+                android:inputType="textMultiLine"
+                android:maxLength="60"
+                android:maxLines="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_height"
+            android:paddingTop="@dimen/activity_spacing">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_quantity" />
+
+            <!-- Input fields: Quantity. -->
+            <LinearLayout style="@style/EditorLinearLayoutStyle">
+
+                <ImageButton
+                    android:id="@+id/button_minus_quantity"
+                    android:layout_width="@dimen/quantity_button_size"
+                    android:layout_height="@dimen/quantity_button_size"
+                    android:contentDescription="@string/minus_button_description"
+                    android:src="@drawable/ic_remove_white_24dp" />
+
+                <EditText
+                    android:id="@+id/edit_quantity"
+                    style="@style/EditTextStyle"
+                    android:layout_width="@dimen/quantity_edit_text_width"
+                    android:gravity="center"
+                    android:hint="@string/editor_quantity_hint"
+                    android:inputType="number"
+                    android:maxLength="10" />
+
+                <ImageButton
+                    android:id="@+id/button_plus_quantity"
+                    android:layout_width="@dimen/quantity_button_size"
+                    android:layout_height="@dimen/quantity_button_size"
+                    android:contentDescription="@string/plus_button_description"
+                    android:src="@drawable/ic_add_white_24dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_height">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/category_price" />
+            <!-- Input fields: Price. -->
+            <LinearLayout style="@style/EditorLinearLayoutStyle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/editor_price_dollar_sign"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edit_price"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/editor_price_hint"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

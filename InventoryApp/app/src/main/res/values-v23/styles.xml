@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for TextView with a compound image. -->
+    <style name="ImageChooserTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/compound_image_padding</item>
+        <item name="android:drawableTint">@drawable/image_chooser_item_color_list</item>
+        <item name="android:textColor">@drawable/image_chooser_item_color_list</item>
+    </style>
+</resources>

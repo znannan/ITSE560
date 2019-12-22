@@ -1,3 +1,72 @@
-<resources>
-    <string name="app_name">InventoryApp</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name for the application. -->
+    <string name="app_name">Inventory App</string>
+    <!-- Title for the activity. -->
+    <string name="editor_activity_title_new_item">Add a Item</string>
+    <string name="editor_activity_title_edit_item">Edit the Item</string>
+
+    <!-- Action title in the appbar. -->
+    <string name="action_add">Add a Item</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete the Item</string>
+    <string name="action_order">Order</string>
+
+    <!-- Text in the empty view. -->
+    <string name="empty_view_text">Inventory is empty.</string>
+
+    <!-- Text in the dialog. -->
+    <string name="confirm_deletion">Confirm the Deletion</string>
+    <string name="deletion_warning">Warning: This can NOT be recovered.</string>
+    <string name="unsaved_changes_warning">Discard your changes and quit editing?</string>
+    <string name="button_discard">Discard</string>
+    <string name="button_keep_editing">Keep Editing</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_gallery">Gallery</string>
+
+    <!-- Text in the toast. -->
+    <string name="toast_complete_edit">Please complete all edit fields.</string>
+    <string name="toast_save_first">Save the item first.</string>
+    <string name="toast_insert_successful">Item Saved.</string>
+    <string name="toast_insert_failed">Error with saving item.</string>
+    <string name="toast_update_successful">Item Updated.</string>
+    <string name="toast_update_failed">Error with updating item.</string>
+    <string name="toast_delete_successful">Item Deleted.</string>
+    <string name="toast_delete_failed">Error with deleting item.</string>
+    <string name="toast_permission_denied">Permission was not granted.</string>
+    <string name="toast_out_of_stock">This item is out of stock.</string>
+    <string name="toast_image_not_found">Image Not Found.</string>
+
+    <!-- Text in the snack bar. -->
+    <string name="permission_required">Adding image needs access to external storage.</string>
+
+    <!-- Category labels in the editor activity. -->
+    <string name="category_name">Name</string>
+    <string name="category_quantity">Quantity</string>
+    <string name="category_price">Price</string>
+
+    <!-- Detail editor text. -->
+    <string name="add_image_text">Touch here to add an image.</string>
+    <string name="editor_name_hint">60 characters max</string>
+    <string name="editor_quantity_hint">9999999999</string>
+    <string name="editor_price_hint">9,999,999,999.99 max</string>
+    <string name="editor_price_dollar_sign">$</string>
+
+    <!-- Price Input Pattern. -->
+    <string name="price_pattern">
+        ^(0|[1-9][0-9]{0,<xliff:g example="9" id="digitsBeforeDecimalPoint">%d</xliff:g>}+)((\\.\\d{0,<xliff:g example="2" id="digitsAfterDecimalPoint">%d</xliff:g>})?)
+    </string>
+
+    <!-- Inventory Price and Quantity String Style. -->
+    <string name="item_price">$ <xliff:g example="50.00" id="price">%.2f</xliff:g></string>
+    <string name="item_quantity"><xliff:g example="50" id="numberSold">%d</xliff:g> Sold%n<xliff:g example="100" id="numberRemaining">%d</xliff:g> Left</string>
+
+    <!-- Intent Email Text. -->
+    <string name="intent_email_text">Hi there.%nWe would like to order some <xliff:g example="apple" id="mCurrentItemName">%s</xliff:g>.</string>
+    <string name="intent_email_attachment">The picture of the item is in the attachment.</string>
+    <string name="intent_email_thanks">Thank you!</string>
+
+    <!-- Image content description. -->
+    <string name="minus_button_description">This is the minus quantity button.</string>
+    <string name="plus_button_description">This is the plus quantity button.</string>
+    <string name="item_image_description">This is an image of the item.</string>
 </resources>
