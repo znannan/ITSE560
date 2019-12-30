@@ -14,10 +14,10 @@ import java.util.ArrayList;
 /**
  * A {@link Fragment} subclass that displays a list of shopping places.
  */
-public class ShoppingFragment extends Fragment {
+public class CafeteriaFragment extends Fragment {
 
 
-    public ShoppingFragment() {
+    public CafeteriaFragment() {
         // Required empty public constructor
     }
 

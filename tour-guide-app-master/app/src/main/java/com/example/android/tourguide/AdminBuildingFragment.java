@@ -14,10 +14,10 @@ import java.util.ArrayList;
 /**
  * A {@link Fragment} subclass that displays a list of monuments.
  */
-public class MonumentsFragment extends Fragment {
+public class AdminBuildingFragment extends Fragment {
 
 
-    public MonumentsFragment() {
+    public AdminBuildingFragment() {
         // Required empty public constructor
     }
 
